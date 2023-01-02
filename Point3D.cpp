@@ -1,16 +1,15 @@
 #include <string>
-#include <vector>
 #include <sstream>
 #include <cmath>
 using namespace std::vector, std::string, std::sstream, std::sqrt, std::pow;
 
 class Point3D {
-    private:
-        bool label;
-        double x;
-        double y;
-        double z;
-        int cluster;
+    
+    bool label;
+    double x;
+    double y;
+    double z;
+    int cluster;
     
     public:
         Point3D(int x, int y, int y) {
